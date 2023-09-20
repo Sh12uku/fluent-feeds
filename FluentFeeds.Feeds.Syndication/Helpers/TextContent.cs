@@ -49,8 +49,8 @@ public abstract class TextContent
 	/// Auto-detect if <c>content</c> is HTML content.
 	/// </summary>
 	public static bool IsHtml(string content) =>
-		content.Contains("<p>", StringComparison.OrdinalIgnoreCase) ||
-		content.Contains("<div>", StringComparison.OrdinalIgnoreCase) ||
+		content.Contains("<p", StringComparison.OrdinalIgnoreCase) ||
+		content.Contains("<div", StringComparison.OrdinalIgnoreCase) ||
 		content.Contains("<br>", StringComparison.OrdinalIgnoreCase) ||
 		content.Contains("<br/>", StringComparison.OrdinalIgnoreCase) ||
 		content.Contains("<br />", StringComparison.OrdinalIgnoreCase);

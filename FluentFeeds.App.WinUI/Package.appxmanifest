@@ -7,12 +7,12 @@
 
 	<Identity
 		Name="7a796eff-f223-4100-afd7-d6d5cbd0c49b"
-		Publisher="CN=Hannes Schulze"
-		Version="0.1.0.0" />
+		Publisher="CN=Sh12uku, O=Sh12uku, C=CN"
+		Version="0.1.1.0" />
 
 	<Properties>
 		<DisplayName>Fluent Feeds</DisplayName>
-		<PublisherDisplayName>Hannes Schulze</PublisherDisplayName>
+		<PublisherDisplayName>Sh12uku</PublisherDisplayName>
 		<Logo>Assets\StoreLogo.png</Logo>
 	</Properties>
 

@@ -62,7 +62,8 @@ public sealed partial class MainPage : Page
 	
 	public MainViewModel ViewModel => (MainViewModel)DataContext;
 
-	public string WindowIcon => Path.Combine(Package.Current.InstalledLocation.Path, "Assets", "WindowIcon.ico");
+	//public string WindowIcon => Path.Combine(Package.Current.InstalledLocation.Path, "Assets", "WindowIcon.ico");
+	public string WindowIcon => Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory, "Assets", "WindowIcon.ico");
 
 	public double CaptionButtonsWidth { get; set; } = 0;
 	public double TitleBarHeight { get; set; } = 48;
